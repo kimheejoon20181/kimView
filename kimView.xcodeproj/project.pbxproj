@@ -13,6 +13,9 @@
 		4EC6226223A206CE00F31BE3 /* kimView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4EC6226023A206CE00F31BE3 /* kimView.xcdatamodeld */; };
 		4EC6226423A206DC00F31BE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EC6226323A206DC00F31BE3 /* Assets.xcassets */; };
 		4EC6226723A206DC00F31BE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EC6226523A206DC00F31BE3 /* LaunchScreen.storyboard */; };
+		4EC6227023A206F100F31BE3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC6226F23A206F100F31BE3 /* MapKit.framework */; };
+		4EC6227223A2072600F31BE3 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC6227123A2072600F31BE3 /* data.swift */; };
+		4EC6227423A2074100F31BE3 /* data.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4EC6227323A2074100F31BE3 /* data.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		4EC6226323A206DC00F31BE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EC6226623A206DC00F31BE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EC6226823A206DC00F31BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EC6226F23A206F100F31BE3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4EC6227123A2072600F31BE3 /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		4EC6227323A2074100F31BE3 /* data.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = data.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EC6227023A206F100F31BE3 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,7 @@
 			children = (
 				4EC6225823A206CD00F31BE3 /* kimView */,
 				4EC6225723A206CD00F31BE3 /* Products */,
+				4EC6226E23A206F000F31BE3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +71,18 @@
 				4EC6226523A206DC00F31BE3 /* LaunchScreen.storyboard */,
 				4EC6226823A206DC00F31BE3 /* Info.plist */,
 				4EC6226023A206CE00F31BE3 /* kimView.xcdatamodeld */,
+				4EC6227123A2072600F31BE3 /* data.swift */,
+				4EC6227323A2074100F31BE3 /* data.xml */,
 			);
 			path = kimView;
+			sourceTree = "<group>";
+		};
+		4EC6226E23A206F000F31BE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EC6226F23A206F100F31BE3 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EC6226723A206DC00F31BE3 /* LaunchScreen.storyboard in Resources */,
+				4EC6227423A2074100F31BE3 /* data.xml in Resources */,
 				4EC6226423A206DC00F31BE3 /* Assets.xcassets in Resources */,
 				4EC6225F23A206CD00F31BE3 /* Main.storyboard in Resources */,
 			);
@@ -141,6 +160,7 @@
 				4EC6225C23A206CD00F31BE3 /* ViewController.swift in Sources */,
 				4EC6226223A206CE00F31BE3 /* kimView.xcdatamodeld in Sources */,
 				4EC6225A23A206CD00F31BE3 /* AppDelegate.swift in Sources */,
+				4EC6227223A2072600F31BE3 /* data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
